@@ -11,6 +11,10 @@
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
+    <feature name="GoInstant">
+        <param name="ios-package" value="CDVGoInstant" />
+        <param name="onload" value="true" />
+    </feature>
     <access origin="http://127.0.0.1*" />
     <preference name="KeyboardDisplayRequiresUserAction" value="true" />
     <preference name="SuppressesIncrementalRendering" value="false" />
